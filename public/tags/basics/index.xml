@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics - Tag - Ciao的博客</title>
+    <link>http://localhost:1313/tags/basics/</link>
+    <description>Ciao的博客</description>
+    <generator>Hugo 0.147.4 &amp; FixIt v0.3.21-b2e6f70a</generator>
+    <language>en</language>
+    <managingEditor>guicaisa@163.com (Ciao)</managingEditor>
+    <webMaster>guicaisa@163.com (Ciao)</webMaster>
+    <lastBuildDate>Mon, 23 Jun 2025 22:51:03 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>123</title>
+      <link>http://localhost:1313/posts/123/</link>
+      <pubDate>Mon, 23 Jun 2025 22:51:03 +0800</pubDate><author>guicaisa@163.com (Ciao)</author>
+      <guid>http://localhost:1313/posts/123/</guid>
+      <category domain="http://localhost:1313/categories/documentation/">Documentation</category>
+      <description>&lt;p&gt;123123&#xA;hahahah&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
