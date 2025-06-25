@@ -176,5 +176,5 @@
 ---
 
 > Author: Ciao  
-> URL: http://localhost:1313/posts/55c06be/  
+> URL: http://localhost:1313/blog/posts/55c06be/  
 

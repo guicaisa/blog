@@ -8,5 +8,5 @@ hahahah
 ---
 
 > Author: Ciao  
-> URL: http://localhost:1313/posts/123/  
+> URL: http://localhost:1313/blog/posts/123/  
 
