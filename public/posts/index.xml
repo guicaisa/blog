@@ -20,13 +20,5 @@
       <category domain="http://localhost:1313/blog/categories/blog/">Blog</category>
       <description>使用Hugo+GithubPage搭建个人博客</description>
     </item>
-    <item>
-      <title>123</title>
-      <link>http://localhost:1313/blog/posts/123/</link>
-      <pubDate>Mon, 23 Jun 2025 22:51:03 +0800</pubDate><author>guicaisa@163.com (Ciao)</author>
-      <guid>http://localhost:1313/blog/posts/123/</guid>
-      <category domain="http://localhost:1313/blog/categories/documentation/">Documentation</category>
-      <description>&lt;p&gt;123123&#xA;hahahah&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
