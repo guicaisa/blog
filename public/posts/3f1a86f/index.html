@@ -5,41 +5,41 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>Leetcode 27.移除元素 - Ciao的博客</title><meta name="author" content="Ciao">
+    <title>Leetcode 26.删除有序数组中的重复项 - Ciao的博客</title><meta name="author" content="Ciao">
 <meta name="description" content=""><meta name="keywords" content='leetcode, algorithm'>
-  <meta itemprop="name" content="leetcode 27.移除元素">
-  <meta itemprop="datePublished" content="2025-06-27T23:42:08+08:00">
-  <meta itemprop="dateModified" content="2025-06-27T23:42:08+08:00">
-  <meta itemprop="wordCount" content="322">
-  <meta itemprop="keywords" content="Leetcode,Algorithm"><meta property="og:url" content="http://localhost:1313/blog/posts/5bbd7e1/">
+  <meta itemprop="name" content="leetcode 26.删除有序数组中的重复项">
+  <meta itemprop="datePublished" content="2025-06-28T20:57:41+08:00">
+  <meta itemprop="dateModified" content="2025-06-28T20:57:41+08:00">
+  <meta itemprop="wordCount" content="216">
+  <meta itemprop="keywords" content="Leetcode,Algorithm"><meta property="og:url" content="http://localhost:1313/blog/posts/3f1a86f/">
   <meta property="og:site_name" content="Ciao的博客">
-  <meta property="og:title" content="leetcode 27.移除元素">
+  <meta property="og:title" content="leetcode 26.删除有序数组中的重复项">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-06-27T23:42:08+08:00">
-    <meta property="article:modified_time" content="2025-06-27T23:42:08+08:00">
+    <meta property="article:published_time" content="2025-06-28T20:57:41+08:00">
+    <meta property="article:modified_time" content="2025-06-28T20:57:41+08:00">
     <meta property="article:tag" content="Leetcode">
     <meta property="article:tag" content="Algorithm">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="leetcode 27.移除元素">
+  <meta name="twitter:title" content="leetcode 26.删除有序数组中的重复项">
 <meta name="application-name" content="FixIt">
 <meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/blog/posts/5bbd7e1/" title="leetcode 27.移除元素 - Ciao的博客" /><link rel="prev" type="text/html" href="http://localhost:1313/blog/posts/42f93e1/" title="leetcode 88.合并两个有序数组" /><link rel="next" type="text/html" href="http://localhost:1313/blog/posts/3f1a86f/" title="leetcode 26.删除有序数组中的重复项" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/blog/posts/5bbd7e1/index.md" title="leetcode 27.移除元素 - Ciao的博客"><link rel="stylesheet" href="/blog/css/style.min.css"><link rel="preload" href="/blog/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/blog/posts/3f1a86f/" title="leetcode 26.删除有序数组中的重复项 - Ciao的博客" /><link rel="prev" type="text/html" href="http://localhost:1313/blog/posts/5bbd7e1/" title="leetcode 27.移除元素" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/blog/posts/3f1a86f/index.md" title="leetcode 26.删除有序数组中的重复项 - Ciao的博客"><link rel="stylesheet" href="/blog/css/style.min.css"><link rel="preload" href="/blog/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/blog/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/blog/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/blog/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "leetcode 27.移除元素",
+    "headline": "leetcode 26.删除有序数组中的重复项",
     "inLanguage": "en",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "http:\/\/localhost:1313\/blog\/posts\/5bbd7e1\/"
-    },"genre": "posts","keywords": "leetcode, algorithm","wordcount":  322 ,
-    "url": "http:\/\/localhost:1313\/blog\/posts\/5bbd7e1\/","datePublished": "2025-06-27T23:42:08+08:00","dateModified": "2025-06-27T23:42:08+08:00","publisher": {
+      "@id": "http:\/\/localhost:1313\/blog\/posts\/3f1a86f\/"
+    },"genre": "posts","keywords": "leetcode, algorithm","wordcount":  216 ,
+    "url": "http:\/\/localhost:1313\/blog\/posts\/3f1a86f\/","datePublished": "2025-06-28T20:57:41+08:00","dateModified": "2025-06-28T20:57:41+08:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
         "@type": "Person",
@@ -78,10 +78,10 @@
 </header><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
 
   <article class="page single">
-    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="Repost" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>Leetcode 27.移除元素</span>
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="Repost" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>Leetcode 26.删除有序数组中的重复项</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Ciao</span></span><span class="post-included-in">&nbsp;included in <a href="/blog/categories/leetcode/" class="post-category" title="Category - Leetcode"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Leetcode</a></span></div><div class="post-meta-line"><span title="published on 2025-06-27 23:42:08"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-06-27">2025-06-27</time></span>&nbsp;<span title="322 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 400 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>One minute</span>&nbsp;</div>
+      Ciao</span></span><span class="post-included-in">&nbsp;included in <a href="/blog/categories/leetcode/" class="post-category" title="Category - Leetcode"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Leetcode</a></span></div><div class="post-meta-line"><span title="published on 2025-06-28 20:57:41"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-06-28">2025-06-28</time></span>&nbsp;<span title="216 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 300 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>One minute</span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
           <span>Contents</span>
@@ -97,13 +97,13 @@
     </li>
   </ul>
 </nav></div>
-      </div><div class="content" id="content"><h1 align="center">leetcode 27.移除元素</h1>
+      </div><div class="content" id="content"><h1 align="center">leetcode 26.删除有序数组中的重复项</h1>
 <h3 class="heading-element" id="题目地址"><span>题目地址</span>
   <a href="#%e9%a2%98%e7%9b%ae%e5%9c%b0%e5%9d%80" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
 </h3><ul>
-<li><a href="https://leetcode.cn/problems/remove-element/"target="_blank" rel="external nofollow noopener noreferrer">https://leetcode.cn/problems/remove-element/</a></li>
+<li><a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-array/"target="_blank" rel="external nofollow noopener noreferrer">https://leetcode.cn/problems/remove-duplicates-from-sorted-array/</a></li>
 </ul>
 <h3 class="heading-element" id="解法"><span>解法</span>
   <a href="#%e8%a7%a3%e6%b3%95" class="heading-mark">
@@ -113,43 +113,8 @@
 <li>双指针</li>
 </ol>
 <ul>
-<li>使用一个单独的指针指向数组头部，然后用另外一个指针遍历数组，遇到与val不同的值则根据第一个指针赋值到数组中，并指向下一个位置，否则就略过，数组遍历结束后，前n个元素即所有不等于value的元素
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">removeElement</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">nums</span><span class="p">,</span> <span class="kt">int</span> <span class="n">val</span><span class="p">)</span> 
-</span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">  <span class="p">{</span>
-</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="n">val</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">      <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="n">nums</span><span class="p">[</span><span class="n">n</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">      <span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-</ul>
-<ol start="2">
-<li>反向指针</li>
-</ol>
-<ul>
-<li>双指针的另一种处理方式，跟方法一差不多，不过第二个指针指向了尾部，在遍历数组的过程中将与val相同的元素与尾部元素互换，并且将尾部指针往前挪，数组遍历只能遍历到尾指针之前，因为尾指针之后存储的都是需要排除的元素
+<li>使用一个指针指index向数组的头部，然后使用另外一个指针遍历数组，由于数组是排序好的，所以在遍历过程中遇到与index指针指向元素相同的值时，就直接略过，遇到不同的值则插入到index指针之后，并将index指针往后挪动一位，持续这个过程直到遍历结束，前index+1个元素中不包含重复元素
+<img loading="lazy" src='/blog/posts/3f1a86f/gif1.gif' alt="/blog/posts/3f1a86f/gif1.gif" height="608" width="1080">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -165,26 +130,20 @@
 </span><span class="lnt">11
 </span><span class="lnt">12
 </span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">removeElementTailPointer</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">nums</span><span class="p">,</span> <span class="kt">int</span> <span class="n">val</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">removeDuplicates</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">nums</span><span class="p">)</span> 
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">tail</span> <span class="o">=</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">tail</span><span class="p">;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">index</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">val</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">==</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="o">--</span><span class="n">tail</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="o">++</span><span class="n">i</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">tail</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">nums</span><span class="p">[</span><span class="o">++</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>    
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">index</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div></li>
@@ -192,13 +151,13 @@
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
-        <span title="Updated on 2025-06-27 23:42:08">Updated on 2025-06-27&nbsp;</span>
+        <span title="Updated on 2025-06-28 20:57:41">Updated on 2025-06-28&nbsp;</span>
       </div></div><div class="post-info-line">
-        <div class="post-info-md"><span><a href="/blog/posts/5bbd7e1/index.md" title="Read Markdown" class="link-to-markdown">Read Markdown</a></span><span><a href="vscode://file//Users/cjj/hugo_dir/blog/content/posts/leetcode/p0001-0050/problem_0027/index.md" title="Open in editor"target="_blank" rel="external nofollow noopener noreferrer" class="link-to-vscode">Open in editor</a></span></div>
+        <div class="post-info-md"><span><a href="/blog/posts/3f1a86f/index.md" title="Read Markdown" class="link-to-markdown">Read Markdown</a></span><span><a href="vscode://file//Users/cjj/hugo_dir/blog/content/posts/leetcode/p0001-0050/problem_0026/index.md" title="Open in editor"target="_blank" rel="external nofollow noopener noreferrer" class="link-to-vscode">Open in editor</a></span></div>
         <div class="post-info-share">
-          <span><a href="javascript:void(0);" title="Share on X" data-sharer="twitter" data-url="http://localhost:1313/blog/posts/5bbd7e1/" data-title="Leetcode 27.移除元素" data-hashtags="leetcode,algorithm"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/blog/posts/5bbd7e1/" data-hashtag="leetcode"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/blog/posts/5bbd7e1/" data-title="Leetcode 27.移除元素"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+          <span><a href="javascript:void(0);" title="Share on X" data-sharer="twitter" data-url="http://localhost:1313/blog/posts/3f1a86f/" data-title="Leetcode 26.删除有序数组中的重复项" data-hashtags="leetcode,algorithm"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/blog/posts/3f1a86f/" data-hashtag="leetcode"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/blog/posts/3f1a86f/" data-title="Leetcode 26.删除有序数组中的重复项"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
   </span>
         </div>
       </div></div>
@@ -208,7 +167,7 @@
     <section>
       <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/blog/">Home</a></span>
     </section>
-  </div><div class="post-nav"><a href="/blog/posts/42f93e1/" class="post-nav-item" rel="prev" title="Leetcode 88.合并两个有序数组"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Leetcode 88.合并两个有序数组</a><a href="/blog/posts/3f1a86f/" class="post-nav-item" rel="next" title="Leetcode 26.删除有序数组中的重复项">Leetcode 26.删除有序数组中的重复项<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+  </div><div class="post-nav"><a href="/blog/posts/5bbd7e1/" class="post-nav-item" rel="prev" title="Leetcode 27.移除元素"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Leetcode 27.移除元素</a></div>
 </div>
 </article>
 
