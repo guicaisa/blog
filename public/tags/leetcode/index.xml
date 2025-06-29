@@ -8,8 +8,16 @@
     <language>en</language>
     <managingEditor>guicaisa@163.com (Ciao)</managingEditor>
     <webMaster>guicaisa@163.com (Ciao)</webMaster>
-    <lastBuildDate>Sat, 28 Jun 2025 20:57:41 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 15:47:56 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>leetcode 80.删除有序数组中的重复项 II</title>
+      <link>http://localhost:1313/blog/posts/28e5205/</link>
+      <pubDate>Sun, 29 Jun 2025 15:47:56 +0800</pubDate><author>guicaisa@163.com (Ciao)</author>
+      <guid>http://localhost:1313/blog/posts/28e5205/</guid>
+      <category domain="http://localhost:1313/blog/categories/leetcode/">Leetcode</category>
+      <description>leetcode 80.删除有序数组中的重复项 II</description>
+    </item>
     <item>
       <title>leetcode 26.删除有序数组中的重复项</title>
       <link>http://localhost:1313/blog/posts/3f1a86f/</link>
