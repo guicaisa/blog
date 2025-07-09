@@ -10,7 +10,7 @@
   <meta itemprop="name" content="leetcode 45.跳跃游戏 II">
   <meta itemprop="datePublished" content="2025-07-07T16:50:20+08:00">
   <meta itemprop="dateModified" content="2025-07-07T16:50:20+08:00">
-  <meta itemprop="wordCount" content="154">
+  <meta itemprop="wordCount" content="314">
   <meta itemprop="keywords" content="Leetcode,Algorithm"><meta property="og:url" content="http://localhost:1313/blog/posts/9fc75a4/">
   <meta property="og:site_name" content="Ciao的博客">
   <meta property="og:title" content="leetcode 45.跳跃游戏 II">
@@ -38,7 +38,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http:\/\/localhost:1313\/blog\/posts\/9fc75a4\/"
-    },"genre": "posts","keywords": "leetcode, algorithm","wordcount":  154 ,
+    },"genre": "posts","keywords": "leetcode, algorithm","wordcount":  314 ,
     "url": "http:\/\/localhost:1313\/blog\/posts\/9fc75a4\/","datePublished": "2025-07-07T16:50:20+08:00","dateModified": "2025-07-07T16:50:20+08:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
@@ -81,7 +81,7 @@
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="Repost" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>Leetcode 45.跳跃游戏 II</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Ciao</span></span><span class="post-included-in">&nbsp;included in <a href="/blog/categories/leetcode/" class="post-category" title="Category - Leetcode"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Leetcode</a></span></div><div class="post-meta-line"><span title="published on 2025-07-07 16:50:20"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-07-07">2025-07-07</time></span>&nbsp;<span title="154 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 200 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>One minute</span>&nbsp;</div>
+      Ciao</span></span><span class="post-included-in">&nbsp;included in <a href="/blog/categories/leetcode/" class="post-category" title="Category - Leetcode"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Leetcode</a></span></div><div class="post-meta-line"><span title="published on 2025-07-07 16:50:20"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-07-07">2025-07-07</time></span>&nbsp;<span title="314 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 400 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>One minute</span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
           <span>Contents</span>
@@ -113,7 +113,9 @@
 <li>贪心</li>
 </ol>
 <ul>
-<li>根据当前所在位置和能到达的最远距离，计算下一次可以达到的最远距离，每计算一段，就自增一次count，最终得到跳跃次数
+<li>根据当前所在位置和能到达的最远距离，计算下一次可以达到的最远距离，每计算一段，就自增一次count，最终得到跳跃次数</li>
+<li>如下图所示，使用left和right两个索引值来表示当前可到达的区间，max_pos表示当前能到达的最远距离，count用来记录跳跃的次数
+<img loading="lazy" src='/blog/posts/9fc75a4/p1.png' alt="/blog/posts/9fc75a4/p1.png" height="1080" width="1920">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -135,21 +137,25 @@
 </span><span class="lnt">17
 </span><span class="lnt">18
 </span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">jump</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">nums</span><span class="p">)</span> 
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">left</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">right</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(;</span> <span class="n">right</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">//跳跃次数
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kt">int</span> <span class="n">left</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">//区间左侧索引
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kt">int</span> <span class="n">right</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">//区间右侧索引
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">for</span> <span class="p">(;</span> <span class="n">right</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">max_pos</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">left</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">max_pos</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">//最远距离
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">//left和right为当前可到达的区间，在可到达区间内计算下次跳跃能到达的最远位置
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">left</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="n">max_pos</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">max_pos</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="o">++</span><span class="n">count</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">//自增跳跃次数，并定位到下一个区间
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="o">++</span><span class="n">count</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">left</span> <span class="o">=</span> <span class="n">right</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">right</span> <span class="o">=</span> <span class="n">max_pos</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
