@@ -18,9 +18,7 @@ tags:
   - hugo
   - blog
 categories:
-  - tools
   - hugo
-  - blog
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRelated: false

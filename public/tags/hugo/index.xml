@@ -15,9 +15,7 @@
       <link>http://localhost:1313/blog/posts/55c06be/</link>
       <pubDate>Wed, 25 Jun 2025 17:40:39 +0800</pubDate><author>guicaisa@163.com (Ciao)</author>
       <guid>http://localhost:1313/blog/posts/55c06be/</guid>
-      <category domain="http://localhost:1313/blog/categories/tools/">Tools</category>
       <category domain="http://localhost:1313/blog/categories/hugo/">Hugo</category>
-      <category domain="http://localhost:1313/blog/categories/blog/">Blog</category>
       <description>使用Hugo+GithubPage搭建个人博客</description>
     </item>
   </channel>
