@@ -82,3 +82,6 @@ repost:
     ```Shell
     wsl --unregister xxx
     ```
+
+### 参考
+  * https://www.bilibili.com/video/BV1tW42197za/?spm_id_from=333.337.search-card.all.click&vd_source=c32b0d1378fd28f298bdf48885533186
