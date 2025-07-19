@@ -437,7 +437,7 @@
 </div></li>
 <li>看完代码后有个疑问，比如在左侧遍历的时候，为什么可以笃定left_max一定是当前位置的短板，就不会出现其实短板在右侧的情况吗?</li>
 <li>首先，假设在刚开始的时候，只有在height[left] &lt; height[right]的情况下，才会在左边进行遍历，所以此时计算的出来的left_max一定是比height[right]小的，短板一定是left_max</li>
-<li>其次，如果是从左边遍历转到了一次右边遍历，再转回左边的话，就算有新的height会大于left_max，但是考虑在height[left] &lt; height[right]限制下，短板肯定还是left_max，那么如果新一轮左侧遍历中，没有更新过left_max的话呢?这里需要记住的是，第一轮左侧遍历时，left_max就是在height[left] &lt; height[right]条件下产生的，所以left_max计算在后续的左侧遍历中没有被更新过，它始终小于右侧的某个值</li>
+<li>其次，如果是从左边遍历转到了一次右边遍历，再转回左边的话，就算有新的height会大于left_max，但是考虑在height[left] &lt; height[right]限制下，短板肯定还是left_max，那么如果新一轮左侧遍历中，没有更新过left_max的话呢?这里需要记住的是，第一轮左侧遍历时，left_max就是在height[left] &lt; height[right]条件下产生的，所以left_max就算在后续的左侧遍历中没有被更新过，它始终小于右侧的某个值</li>
 <li>所以理解这个解法的关键点在于，<strong>left_max始终是height[left] &lt; height[right]限制条件下的产物</strong>，所以left_max一定会是短板，right_max也是一样的道理</li>
 </ul></div><div class="post-footer" id="post-footer">
   <div class="post-info">
