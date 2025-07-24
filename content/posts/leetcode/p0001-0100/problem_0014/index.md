@@ -46,7 +46,7 @@ repost:
 <h1 align="center">leetcode 14.最长公共前缀</h1>
 
 ### 题目地址
-  * leetcode.cn/problems/longest-common-prefix/
+  * https://leetcode.cn/problems/longest-common-prefix/
   
 ### 解法
   1. 遍历
@@ -78,3 +78,4 @@ repost:
         return result;
     }
     ```C++
+
