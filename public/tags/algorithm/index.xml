@@ -8,8 +8,16 @@
     <language>en</language>
     <managingEditor>guicaisa@163.com (Ciao)</managingEditor>
     <webMaster>guicaisa@163.com (Ciao)</webMaster>
-    <lastBuildDate>Sat, 26 Jul 2025 13:14:30 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 02:26:32 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>leetcode 28.找出字符串中第一个匹配项的下标</title>
+      <link>http://localhost:1313/blog/posts/4235705/</link>
+      <pubDate>Sun, 27 Jul 2025 02:26:32 +0800</pubDate><author>guicaisa@163.com (Ciao)</author>
+      <guid>http://localhost:1313/blog/posts/4235705/</guid>
+      <category domain="http://localhost:1313/blog/categories/leetcode/">Leetcode</category>
+      <description>leetcode 28.找出字符串中第一个匹配项的下标</description>
+    </item>
     <item>
       <title>leetcode 6.Z 字形变换</title>
       <link>http://localhost:1313/blog/posts/da81747/</link>
