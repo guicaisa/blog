@@ -8,8 +8,16 @@
     <language>en</language>
     <managingEditor>guicaisa@163.com (Ciao)</managingEditor>
     <webMaster>guicaisa@163.com (Ciao)</webMaster>
-    <lastBuildDate>Sat, 16 Aug 2025 21:21:02 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 21 Aug 2025 22:33:48 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>leetcode 11.盛最多水的容器</title>
+      <link>http://localhost:1313/blog/posts/05467b9/</link>
+      <pubDate>Thu, 21 Aug 2025 22:33:48 +0800</pubDate><author>guicaisa@163.com (Ciao)</author>
+      <guid>http://localhost:1313/blog/posts/05467b9/</guid>
+      <category domain="http://localhost:1313/blog/categories/leetcode/">Leetcode</category>
+      <description>leetcode 11.盛最多水的容器</description>
+    </item>
     <item>
       <title>leetcode 167.两数之和 II - 输入有序数组</title>
       <link>http://localhost:1313/blog/posts/c779e4e/</link>
