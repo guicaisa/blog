@@ -283,7 +283,44 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/blog/posts/123/</loc>
+    <lastmod>2025-06-23T22:51:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/tags/basics/</loc>
+    <lastmod>2025-06-23T22:51:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/blog/collections/</loc>
+    <lastmod>2025-06-23T22:51:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/tags/configuration/</loc>
+    <lastmod>2025-06-23T22:51:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/categories/documentation/</loc>
+    <lastmod>2025-06-23T22:51:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/collections/getting-started/</loc>
+    <lastmod>2025-06-23T22:51:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/tags/installation/</loc>
+    <lastmod>2025-06-23T22:51:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
