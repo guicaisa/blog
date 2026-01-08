@@ -43,7 +43,7 @@ repost:
 
 <!--more-->
 
-<h1 align="center">leetcode 3. 无重复字符的最长子串/h1>
+<h1 align="center">leetcode 3. 无重复字符的最长子串</h1>
 
 ### 题目地址
   * https://leetcode.cn/problems/longest-substring-without-repeating-characters/

@@ -10,7 +10,7 @@
   <meta itemprop="name" content="leetcode 15. 三数之和">
   <meta itemprop="datePublished" content="2025-12-09T20:20:03+08:00">
   <meta itemprop="dateModified" content="2025-12-09T20:20:03+08:00">
-  <meta itemprop="wordCount" content="601">
+  <meta itemprop="wordCount" content="597">
   <meta itemprop="keywords" content="Leetcode,Algorithm"><meta property="og:url" content="http://localhost:1313/blog/posts/56dc3c0/">
   <meta property="og:site_name" content="Ciao的博客">
   <meta property="og:title" content="leetcode 15. 三数之和">
@@ -38,7 +38,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http:\/\/localhost:1313\/blog\/posts\/56dc3c0\/"
-    },"genre": "posts","keywords": "leetcode, algorithm","wordcount":  601 ,
+    },"genre": "posts","keywords": "leetcode, algorithm","wordcount":  597 ,
     "url": "http:\/\/localhost:1313\/blog\/posts\/56dc3c0\/","datePublished": "2025-12-09T20:20:03+08:00","dateModified": "2025-12-09T20:20:03+08:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
@@ -81,7 +81,7 @@
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="Repost" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>Leetcode 15. 三数之和</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Ciao</span></span><span class="post-included-in">&nbsp;included in <a href="/blog/categories/leetcode/" class="post-category" title="Category - Leetcode"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Leetcode</a></span></div><div class="post-meta-line"><span title="published on 2025-12-09 20:20:03"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-12-09">2025-12-09</time></span>&nbsp;<span title="601 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 700 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>2 minutes</span>&nbsp;</div>
+      Ciao</span></span><span class="post-included-in">&nbsp;included in <a href="/blog/categories/leetcode/" class="post-category" title="Category - Leetcode"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Leetcode</a></span></div><div class="post-meta-line"><span title="published on 2025-12-09 20:20:03"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-12-09">2025-12-09</time></span>&nbsp;<span title="597 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 600 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>2 minutes</span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
           <span>Contents</span>
@@ -97,7 +97,7 @@
     </li>
   </ul>
 </nav></div>
-      </div><div class="content" id="content"><h1 align="center">leetcode 15. 三数之和/h1>
+      </div><div class="content" id="content"><h1 align="center">leetcode 15. 三数之和</h1>
 <h3 class="heading-element" id="题目地址"><span>题目地址</span>
   <a href="#%e9%a2%98%e7%9b%ae%e5%9c%b0%e5%9d%80" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
@@ -115,7 +115,7 @@
 <ul>
 <li>首先对数组进行排序，然后开始遍历数组，将当前遍历的元素视为定点，将问题拆解为两数之和，在剩下的数组范围中处理两数之和问题</li>
 <li>由于数组事先进行过排序，所以在单次遍历过程中可以略过多个重复元素，保证结果中不会出现重复，并且在处理两数之和问题时也需要注意略过重复元素
-<img loading="lazy" src='/blog/posts/56dc3c0/p1.png' alt="/blog/posts/56dc3c0/p1.png" height="1080" width="1920"></li>
+<img loading="lazy" src='/blog/posts/56dc3c0/p1.gif' alt="/blog/posts/56dc3c0/p1.gif" height="480" width="854"></li>
 <li>有一个特殊情况可以提前结束遍历，即当前元素大于0，由于数组是升序排列的，该元素之后的元素肯定会大于等于这个元素，所以三数之和的结果肯定是大于0的，从该元素起之后的所有元素都无法得到有效的解，可以提前结束遍历
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

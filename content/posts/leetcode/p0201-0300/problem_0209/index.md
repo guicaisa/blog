@@ -43,7 +43,7 @@ repost:
 
 <!--more-->
 
-<h1 align="center">leetcode 209. 长度最小的子数组/h1>
+<h1 align="center">leetcode 209.长度最小的子数组</h1>
 
 ### 题目地址
   * https://leetcode.cn/problems/minimum-size-subarray-sum/
