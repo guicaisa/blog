@@ -8,15 +8,23 @@
     <language>en</language>
     <managingEditor>guicaisa@163.com (Ciao)</managingEditor>
     <webMaster>guicaisa@163.com (Ciao)</webMaster>
-    <lastBuildDate>Wed, 25 Feb 2026 20:54:49 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 20:24:06 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>leetcode 30. 串联所有单词的子串</title>
+      <title>leetcode 76.最小覆盖子串</title>
+      <link>http://localhost:1313/blog/posts/9d8ed91/</link>
+      <pubDate>Fri, 27 Feb 2026 20:24:06 +0800</pubDate><author>guicaisa@163.com (Ciao)</author>
+      <guid>http://localhost:1313/blog/posts/9d8ed91/</guid>
+      <category domain="http://localhost:1313/blog/categories/leetcode/">Leetcode</category>
+      <description>leetcode 76.最小覆盖子串</description>
+    </item>
+    <item>
+      <title>leetcode 30.串联所有单词的子串</title>
       <link>http://localhost:1313/blog/posts/2b93f11/</link>
       <pubDate>Wed, 25 Feb 2026 20:54:49 +0800</pubDate><author>guicaisa@163.com (Ciao)</author>
       <guid>http://localhost:1313/blog/posts/2b93f11/</guid>
       <category domain="http://localhost:1313/blog/categories/leetcode/">Leetcode</category>
-      <description>leetcode 30. 串联所有单词的子串</description>
+      <description>leetcode 30.串联所有单词的子串</description>
     </item>
     <item>
       <title>leetcode 3. 无重复字符的最长子串</title>

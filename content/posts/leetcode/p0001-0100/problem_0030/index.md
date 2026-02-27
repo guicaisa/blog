@@ -1,5 +1,5 @@
 ---
-title: leetcode 30. 串联所有单词的子串
+title: leetcode 30.串联所有单词的子串
 subtitle:
 date: 2026-02-25T20:54:49+08:00
 slug: 2b93f11
@@ -43,7 +43,7 @@ repost:
 
 <!--more-->
 
-<h1 align="center">leetcode 30. 串联所有单词的子串</h1>
+<h1 align="center">leetcode 30.串联所有单词的子串</h1>
 
 ### 题目地址
   * https://leetcode.cn/problems/substring-with-concatenation-of-all-words/

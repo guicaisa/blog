@@ -1,9 +1,9 @@
-# Leetcode 30. 串联所有单词的子串
+# Leetcode 30.串联所有单词的子串
 
 
 <!--more-->
 
-<h1 align="center">leetcode 30. 串联所有单词的子串</h1>
+<h1 align="center">leetcode 30.串联所有单词的子串</h1>
 
 ### 题目地址
   * https://leetcode.cn/problems/substring-with-concatenation-of-all-words/
