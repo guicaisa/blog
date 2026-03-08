@@ -8,8 +8,16 @@
     <language>en</language>
     <managingEditor>guicaisa@163.com (Ciao)</managingEditor>
     <webMaster>guicaisa@163.com (Ciao)</webMaster>
-    <lastBuildDate>Fri, 27 Feb 2026 20:24:06 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 16:24:27 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>leetcode 36.有效的数独</title>
+      <link>http://localhost:1313/blog/posts/61f9188/</link>
+      <pubDate>Sun, 08 Mar 2026 16:24:27 +0800</pubDate><author>guicaisa@163.com (Ciao)</author>
+      <guid>http://localhost:1313/blog/posts/61f9188/</guid>
+      <category domain="http://localhost:1313/blog/categories/leetcode/">Leetcode</category>
+      <description>leetcode 36.有效的数独</description>
+    </item>
     <item>
       <title>leetcode 76.最小覆盖子串</title>
       <link>http://localhost:1313/blog/posts/9d8ed91/</link>
